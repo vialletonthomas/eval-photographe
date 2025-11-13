@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kalnia:wght@100..700&display=swap');
 
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
+}
+
+a{
+    text-decoration: none;
+    color:white
 }
 
 p, h3{
@@ -22,6 +29,17 @@ h2, h1, h4{
     "wdth" 100;
 }
 
+.container-1000 {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.color{
+    color: white;
+}
+
 /* section button*/
 
 .btn{
@@ -29,6 +47,7 @@ background-color: #262424;
 color: white;
 padding: 5px 15px;
 display: inline-block;
+height: 30px;
 }
 
 /*le header*/
@@ -56,13 +75,6 @@ display: inline-block;
     justify-content: space-between;
 }
 
-.marginright{
-    margin-right: 40px;
-}
-
-.marginleft{
-    margin-left: 50px;
-}
 
 /*section flex*/
 
@@ -106,23 +118,29 @@ display: inline-block;
     width: 15%;
 }
 
-/*photo de prestations*/
+/*les margins*/
 
 .marginbottom{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .margintop{
     margin-top: 30px;
 }
 
-/*valeurs ajoutees*/
+.marginright{
+    margin-right: 40px;
+}
 
-.container-1000 {
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+.marginleft{
+    margin-left: 30px;
+}
+
+/*les background*/
+
+
+.backgroundcolorclients{
+    background-color: #FFFFFF;
 }
 
 .backgroundcolor{
@@ -130,12 +148,47 @@ display: inline-block;
     
 }
 
-/*temoignage clients*/
+/*gap*/
 
+.gap{
+    gap: 100px;
+}
 
+/*padding*/
 
+.padding{
+    padding: 40px;
+}
 
+/*les center*/
+
+.aligncenter{
+    align-items: center;
+}
 
 .justifycenter{
     justify-content: center;
+}
+
+.textcenter{
+    text-align: center;
+}
+/*autre*/
+
+.scaled{
+    scale: 2;
+}
+
+.justifyend{
+    justify-content:end;
+}
+
+.block{
+    display: block;
+    height: 30px;
+    background-color: #F2EAE4;
+}
+
+.gapphoto{
+    gap: 20px;
 }
